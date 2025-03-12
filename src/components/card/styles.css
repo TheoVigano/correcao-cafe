@@ -1,0 +1,102 @@
+#card {
+  width: 100%;
+  max-width: 256px;
+  height: 310px;
+  background-color: var(--base-card);
+  border-radius: 6px 36px 6px 36px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coffeeImg {
+  position: absolute;
+  top: -20px;
+}
+
+#tags {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-transform: uppercase;
+
+  margin-top: 100px;
+  margin-bottom: 16px;
+}
+
+#tags span {
+  padding: 4px 8px;
+  border-radius: 100px;
+  color: var(--yellow-dark);;
+  background-color: var(--yellow-light);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: var(--baloo);
+  color: var(--base-subtitle);;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 14px;
+  color: var(--base-label);;
+  text-align: center;
+  width: 100%;
+  max-width: 216px;
+  margin-bottom: 33px;
+}
+
+#details {
+  display: flex;
+  align-items: center;
+}
+
+#details span {
+  font-size: 14px;
+  color: var(--base-text);;
+}
+
+#details span strong {
+  color: var(--base-text);;
+  font-size: 24px;
+  font-family: var(--baloo);
+  font-weight: 800;
+}
+
+.quantityButtons {
+  display: flex;
+  align-items: center;
+  gap: 3.5px;
+  border-radius: 6px;
+  background-color: #e6e5e5;
+  padding: 8.5px 8px;
+  margin-left: 23px;
+  margin-right: 8px;
+}
+
+.quantityButtons button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--purple);;
+}
+
+.quantityButtons p {
+  font-size: 16px;
+  color: var(--base-title);;
+}
+
+.cartBtn {
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  background-color: var(--purple-dark);;
+  border-radius: 6px;
+}
